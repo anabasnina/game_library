@@ -8,17 +8,18 @@ import javax.swing.JPanel;
 
 public class BeginFrame {
 
-	JPanel panel = new JPanel();
-	f.getContentPane().add(panel);
-
-	JButton button = new JButton("Start");
-	button.setBounds(95, 40, 85, 30);
-          panel.add(button);
-
 	public BeginFrame(Controller) {
 		JFrame start = new JFrame(Start);
 		start.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		start.setSize(1000,600);
+		
+		JPanel panel = new JPanel();
+	        f.getContentPane().add(panel);
+		
+		JButton button = new JButton("Start");
+	        button.setBounds(220, 240, 60, 20);
+                panel.add(button);
+		
+		start.setSize(500,500);
 		start.setResizable(false);
 		start.setVisible(true);
 
