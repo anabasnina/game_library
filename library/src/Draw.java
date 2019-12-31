@@ -33,7 +33,7 @@ public class Draw {
 	}
 
 	public void drawComponents(Graphics) {
-
+//на диаграмме нет обазначения что есть Components
 	}
 
 	public void drawScore(Graphics g) {
