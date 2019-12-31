@@ -1,4 +1,4 @@
-package game_library.src;
+package library.src;
 
 import java.io.*;
 import java.util.*;
